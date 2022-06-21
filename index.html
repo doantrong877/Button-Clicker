@@ -12,7 +12,7 @@
         <div class="nav">
             <h1>Dojonary</h1>
             <input id="search-bar" placeholder=" Search"></input>
-            <button id="login-btn">Login</button>
+            <button id="login-btn" onclick="changeLogin(this)">Login</button>
         </div>
         <div class="info-container">
             <div class="col-1">
@@ -25,7 +25,7 @@
                         </div>
                         
                         <div class="btn">
-                            <button id="like-btn">13 likes</button>
+                            <button id="like-btn" onclick="alert('ninja was liked')">13 likes</button>
                         </div>
                         
                     </div>
@@ -42,7 +42,7 @@
                         </div>
                         
                         <div class="btn">
-                            <button id="like-btn">37 likes</button>
+                            <button id="like-btn" onclick="alert('ninja was liked')">37 likes</button>
                         </div>
                         
                     </div>
@@ -54,11 +54,11 @@
             <div class="col-2">
                 <div class="adding-box">
                     <h2>Dojonary is <br> defined by YOU</h2>
-                    <button id="add-btn"><h3>Add Definition</h3></button>
+                    <button id="add-btn" onclick="removeAddDefinition(this)"><h3>Add Definition</h3></button>
                 </div>
             </div>
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
