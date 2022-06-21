@@ -20,6 +20,10 @@ body{
     margin-bottom: 3%;
 }
 
+.nav h1{
+    margin-left: 3%;
+}
+
 #search-bar{
     border-color: black;
     border-width: 3px;
@@ -36,6 +40,7 @@ body{
     width: 8%;
     background-color: rgb(74, 74, 227);
     box-shadow: 4px 4px 4px black;
+    margin-right: 3%;
 }
 
 /* main section */
@@ -61,12 +66,15 @@ body{
     justify-content: space-evenly;
     height: 100%;
     flex: 1;
-    text-align: center;
+    
 }
 .word{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .btn{
