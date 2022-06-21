@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* Nav bar */
+
+.nav{
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 1.5%;
+}
+
+#search-bar{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid ;
+    display:flex;
+    align-items: center;
+    width: 30%;
+    height: 25px;
+}
+
+#login-btn{
+    color: white;
+    padding: 0.5%;
+    width: 8%;
+    background-color: lightskyblue;
+    box-shadow: 4px 4px 4px gray;
+}
+
